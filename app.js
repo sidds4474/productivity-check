@@ -26,7 +26,7 @@ let total = isNaN(localStorage.getItem('total'))
 
 console.log(total)
 
-effort.textContent = `"Never let the fear of striking out keep you from playing the game."`
+effort.textContent = `"Never let the fear of failure keep you from playing the game."`
 // pro.textContent = `${dayWasted} days wasted.`
 // totalField.textContent = `${total} days.`
 
