@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+html{
+  height: 100vh;
+}
+
+
+body{
+  min-height: 100vh;
+  background: radial-gradient(
+  43.46%  80.54% at 50% 50%,
+  #2d3445 0%,
+  #18181f 100%);
+
+  display: grid;
+  grid-template-rows: 40% 10% auto;
+  padding: 0 5% 0 10%;
+}
+h1{
+  align-self: end;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.btn-group{
+  display: flex;
+  align-items: center;
+}
+
+button{
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 12px;
+  border: none;
+  height: 50px;
+  width: 70px;
+  box-shadow: 4px 6px 12px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+#yes-btn{
+  background: rgb(10,240,125);
+}
+
+#no-btn{
+  background: rgb(250, 32, 32);
+  color: white;
+}
+
+.stats{
+  margin-top: 40%;
+  /* background:rgb(246, 244, 248); */
+  /* box-shadow: 4px 12px 20px rgba(0,0,0,0.3); */
+  border-radius: 14px;
+  height: 300px;
+  padding: 10px;
+  /* margin-right: 5%; */
+}
+
+.effort,
+.procrastination,
+.total,
+.today{
+  font-size: 32px;
+}
+
+.effort{
+  color: rgb(1,182,92);
+  margin: 5% 0;
+}
+
+.total{
+  color: rgb(1,182,92);
+  margin: 5% 0;
+}
+.today{
+  color: rgb(1,182,92);
+  margin: 5% 0;
+}
+
+.procrastination{
+  margin: 5% 0;
+  color: rgb(250,32,32);
+}
+
+
+@media only screen and (min-width:769px) {
+  body{
+    grid-template-columns: 60% auto;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+  }
+
+  .btn-group{
+    align-self: end;
+
+  }
+}
+
+.hide{
+  display: none
+}
+
+
+
+
